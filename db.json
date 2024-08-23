@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "rik",
+      "email": "judo@gmail.com",
+      "age": 45
+    },
+    {
+      "id": "b06e",
+      "name": "Francis Zemlak",
+      "email": "Pamela_Gutkowski54@hotmail.com"
+    },
+    {
+      "id": "0b49",
+      "name": "Carl Wiza",
+      "email": "Madyson.Batz35@yahoo.com"
+    },
+    {
+      "id": "1551",
+      "name": "Brad Weimann",
+      "email": "Cierra24@yahoo.com"
+    },
+    {
+      "id": "49dc",
+      "name": "Pete Fahey",
+      "email": "Melyssa26@yahoo.com"
+    },
+    {
+      "id": "74f8",
+      "name": "Carolyn Stiedemann",
+      "email": "Efrain78@gmail.com"
+    },
+    {
+      "id": "926f",
+      "name": "Ann Mitchell PhD",
+      "email": "Louisa.Hahn@gmail.com"
+    },
+    {
+      "id": "7a23",
+      "name": "Mr. Delia Johns",
+      "email": "Kendra.King@gmail.com"
+    },
+    {
+      "id": "0f98",
+      "name": "Mr. Jacqueline O'Kon",
+      "email": "Joesph27@hotmail.com"
+    },
+    {
+      "id": "8fcd",
+      "name": "Randal Macejkovic",
+      "email": "Rodger77@hotmail.com"
+    },
+    {
+      "id": "8ed4",
+      "name": "Leona Schowalter",
+      "email": "Cade91@hotmail.com"
+    },
+    {
+      "id": "1424",
+      "name": "Robert Lowe",
+      "email": "Isabella93@hotmail.com"
+    },
+    {
+      "id": "b635",
+      "name": "Eula Brown",
+      "email": "Haven_Bartoletti61@gmail.com"
+    },
+    {
+      "id": "816a",
+      "name": "Gayle Rath",
+      "email": "Elliott4@yahoo.com"
+    },
+    {
+      "id": "0b2d",
+      "name": "Paulette Gorczany",
+      "email": "Immanuel49@gmail.com"
+    },
+    {
+      "id": "c1b8",
+      "name": "Cory Towne",
+      "email": "Madge.Steuber@yahoo.com"
+    },
+    {
+      "id": "6952",
+      "name": "Kelley Kling",
+      "email": "Jairo.Treutel@gmail.com"
+    },
+    {
+      "id": "f2bd",
+      "name": "Erik Doyle",
+      "email": "Carey40@yahoo.com"
+    },
+    {
+      "id": "f3f4",
+      "name": "Mathew Daniel",
+      "email": "Tiffany_Batz99@yahoo.com"
+    },
+    {
+      "id": "1504",
+      "name": "Pauline White IV",
+      "email": "Lily70@yahoo.com"
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
