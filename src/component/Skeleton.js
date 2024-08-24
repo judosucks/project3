@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 function Skeleton({times,className}) {
     const outerClassNames = twMerge(classNames('relative',
          'overflow-hidden',
-          'br-gray-200', 
+          'bg-gray-200', 
           'rounded', 
           'mb-2.5',
         className))

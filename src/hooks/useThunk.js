@@ -8,8 +8,8 @@ export function useThunk(thunk){ // custom hook
     const runThunk =useCallback((arg)=>{ //use usecallback to prevent re-redering
         setIsLoading(true)
         dispatch(thunk(arg))
-        .unwrap()
-        .catch(error=>setError(error))
+        .unwrap() //gets a new promise back
+        .catch(err=>setError(err))
         .finally(()=> setIsLoading(false))
     },[dispatch,thunk])
     return [runThunk,isLoading,error]
