@@ -5,6 +5,7 @@ import Skeleton from "./Skeleton";
 import Button from "./Button";
 import { useThunk } from "../hooks/useThunk";
 import UserListItem from "./UserListItem";
+
 function UserList() {
 
     const [doFetchUsers, isLoadingUsers, isLoadingUsersError] = useThunk(fetchUsers)
@@ -12,7 +13,7 @@ function UserList() {
  
 //use useselector to get state from users slice 
     const { data} = useSelector((state) => {
-        console.log(state.users)
+       
         return state.users
     })
 
@@ -30,7 +31,7 @@ function UserList() {
     }
     else if (isLoadingUsersError) {
         console.error('error loading users')
-        content =  <div>Error{console.log(data)}</div>
+        content =  <div>Error loading users</div>
     } else {
         content = data.map((user)=>{
             return <UserListItem key={user.id} user={user}/>

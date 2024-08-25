@@ -1,22 +1,20 @@
 {
   "users": [
     {
-      "id": "88c3",
-      "name": "Samantha Gutkowski"
-    },
-    {
-      "id": "1bfd",
-      "name": "Domingo Kiehn"
-    },
-    {
-      "id": "866a",
-      "name": "Hugh White Jr."
-    },
-    {
       "id": "1740",
       "name": "Ronald Funk"
+    },
+    {
+      "id": "9f40",
+      "name": "Ms. Rolando King"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "17",
+      "title": "funktion",
+      "userId": "1740"
+    }
+  ],
   "photos": []
 }
