@@ -18,7 +18,7 @@ const usersSlice = createSlice({
         builder.addCase(fetchUsers.fulfilled, (state, action) => {
             state.isLoading = false
             state.data = action.payload
-            console.log('isloading', 'state.data', state.data, 'action.payload', action.payload)
+            
         })
         builder.addCase(fetchUsers.rejected, (state, action) => {
             state.isLoading = false

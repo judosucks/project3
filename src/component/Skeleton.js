@@ -1,7 +1,13 @@
+import { useEffect } from "react";
 import classNames from "classnames";
 import { twMerge } from "tailwind-merge";
 
-function Skeleton({times,className}) {
+function Skeleton({times,className,duration}) {
+    
+    const pause = (duration)=>{
+        return new Promise(resolve => setTimeout(resolve, duration))
+    }
+    
     const outerClassNames = twMerge(classNames('relative',
          'overflow-hidden',
           'bg-gray-200', 
@@ -24,6 +30,7 @@ function Skeleton({times,className}) {
                 <div className={innerClassNames}/>
             </div>
         })
+         
     return boxes
 }
 export default Skeleton

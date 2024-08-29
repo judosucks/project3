@@ -9,7 +9,7 @@ function ExpandablePanel({header, children}) {
     }
     return (
         <div className="mb-2 border rounded">
-            <div className="flex p-2 justify-between items-center">
+            <div className="flex p-2 justify-between items-center bg-gray-200">
                 <div className="flex flex-row items-center justify-between">
                     {header}
                 </div>
@@ -21,7 +21,7 @@ function ExpandablePanel({header, children}) {
                         : <GoChevronLeft/>}
                 </div>
             </div>
-            {expanded && <div className="p-2 border-t">{children}</div>}
+            {expanded && <div className="p-2 border-t bg-red-100">{children}</div>}
 
         </div>
 

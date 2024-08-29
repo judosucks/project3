@@ -5,7 +5,10 @@ import Skeleton from "./Skeleton";
 import Button from "./Button";
 import { useThunk } from "../hooks/useThunk";
 import UserListItem from "./UserListItem";
-
+// dev only
+const pause = (duration)=>{
+    return new Promise(resolve => setTimeout(resolve, duration))
+}
 function UserList() {
 
     const [doFetchUsers, isLoadingUsers, isLoadingUsersError] = useThunk(fetchUsers)
@@ -21,13 +24,15 @@ function UserList() {
         doFetchUsers()
     }, [ doFetchUsers])
 
-    const handleUserAdd = ()=>{
+    const handleUserAdd =()=>{
+       
         doCreateUser()
+        
     }
     let content
     if (isLoadingUsers) {
-        console.log('should be loading...')
-        content = <Skeleton times={6} className='h-10 w-full'/>
+        
+        content = <Skeleton times={3}  className='h-10 w-full'/>
     }
     else if (isLoadingUsersError) {
         console.error('error loading users')

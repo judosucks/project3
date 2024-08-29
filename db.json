@@ -1,20 +1,70 @@
 {
   "users": [
     {
-      "id": "1740",
-      "name": "Ronald Funk"
+      "id": "340a",
+      "name": "Natalie Breitenberg"
     },
     {
-      "id": "9f40",
-      "name": "Ms. Rolando King"
+      "id": "e4a7",
+      "name": "Dominick Leuschke"
+    },
+    {
+      "id": "ddce",
+      "name": "Mrs. Rosa D'Amore"
     }
   ],
   "albums": [
     {
-      "id": "17",
-      "title": "funktion",
-      "userId": "1740"
+      "id": "a86a",
+      "userId": "1",
+      "title": "Unbranded Plastic Table"
+    },
+    {
+      "id": "2caa",
+      "userId": "e4a7",
+      "title": "Modern Metal Car"
+    },
+    {
+      "id": "8d56",
+      "userId": "340a",
+      "title": "Modern Fresh Soap"
+    },
+    {
+      "id": "c902",
+      "userId": "e4a7",
+      "title": "Small Cotton Pizza"
+    },
+    {
+      "id": "e0f8",
+      "userId": "e4a7",
+      "title": "Recycled Concrete Hat"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "8125",
+      "albumId": "c902",
+      "url": "https://loremflickr.com/150/150/abstract?lock=30945"
+    },
+    {
+      "id": "be84",
+      "albumId": "2caa",
+      "url": "https://loremflickr.com/150/150/abstract?lock=93892"
+    },
+    {
+      "id": "a267",
+      "albumId": "8d56",
+      "url": "https://loremflickr.com/150/150/abstract?lock=69546"
+    },
+    {
+      "id": "57b6",
+      "albumId": "8d56",
+      "url": "https://loremflickr.com/150/150/abstract?lock=1566"
+    },
+    {
+      "id": "abc7",
+      "albumId": "8d56",
+      "url": "https://loremflickr.com/150/150/abstract?lock=86785"
+    }
+  ]
 }
