@@ -7,8 +7,8 @@ function PhotoList({album}){
     const {data , isFetching, error}=useFetchPhotosQuery(album)
     const [addPhoto, addPhotoResult] = useAddPhotoMutation();
     console.log('addPhotoResult',addPhotoResult,'ablum',album)
-    const handleAddPhotoClick = async () => {
-        await addPhoto(album)
+    const handleAddPhotoClick = () => {
+         addPhoto(album)
     }
 
     
