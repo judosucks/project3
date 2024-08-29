@@ -1,8 +1,12 @@
 import { createApi , fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import { faker } from "@faker-js/faker";
+
+
 // dev only
 const pause = (duration)=>{
     return new Promise(resolve => setTimeout(resolve, duration))}
+
+
 const photosApi = createApi({
     reducerPath:'photos',
     baseQuery:fetchBaseQuery({
@@ -19,7 +23,7 @@ const photosApi = createApi({
                  const tags = result.map((photo)=>{
                     return{type:'Photo', id:photo.id}
                  })
-                tags.push({type:'Album', id:album.id})
+                tags.push({type:'AlbumPhoto', id:album.id})
                 return tags
                 },
                 query:(album)=>{
